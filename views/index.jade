@@ -1,0 +1,42 @@
+extends layout
+
+block content
+
+  section.offline
+    .container
+      .message
+        h2 Node Bowler is currently offline
+        p This may be due to a bit of bother with the old Internet, or possibly we are just having a spot of tea.
+        p Please try again later to see what's going on with the bowler.
+
+      p.attribution Brought to you by 
+        a.logo-clock(href='http://clock.co.uk') Clock.
+
+  section.info
+    .container
+      .row
+          h2 What's in the Bowler?
+          ul
+            li
+              a(href='http://www.amazon.co.uk/dp/B004TAK9HQ/?tag=hydra0b-21&hvadid=10340114469&ref=asc_df_B004TAK9HQ') Black English Wool Bowler Hat
+            li
+              a(href='http://www.amazon.co.uk/dp/B0013KD7U6/ref=pe_217191_31005151_dp_1') TeckNet iEP390 Power Station 11000mAh External Battery
+            li
+              a(href='http://raspberrypi.rsdelivers.com/default.aspx?cl=1') 1 x Raspberry Pi Type B Single Board Computer
+            li
+              a(href='http://www.maplin.co.uk/5mm-rounded-panel-indicator-leds-and-bezels-35952') 6 x Panel Indicator LEDs
+            li
+              a(href='http://www.raspbian.org/') Raspbian “wheezy”
+            li
+              a(href='http://nodejs.org/') node.js 0.6.19
+
+      div.social
+        .content
+          h4 Follow the bowler
+          p Find out what the bowler hat is up to and see the best snaps by following 
+            a(href='http://twitter.com/nodebowler') @nodebowler
+
+        nav
+          ul
+            li.nav-twitter: a(href='http://twitter.com/nodebowler') @nodebowler
+            li.nav-github: a(href='https://github.com/serby/bowler') GitHub
