@@ -1,14 +1,15 @@
 {
   "name": "bowler-offline",
-  "version": "0.0.1",
+  "version": "0.0.1-3",
   "private": true,
   "main": "./app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "./app.js"
   },
   "dependencies": {
     "express": "3.0.0rc4",
     "jade": "*",
+    "stylus": "*"
   },
   "subdomain": "bowler-offline",
   "engines": {
